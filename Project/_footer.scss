@@ -1,0 +1,140 @@
+
+@media (min-width:768px) and (max-width:2600px){
+
+  .footer{
+    padding:1.5rem ;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    
+    
+    
+    
+  }
+  .footer__brand{
+    height: 45px;
+    
+  }
+
+  .footer__cont-inf{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    flex: 1;
+    
+    
+  }
+
+  .footer__cont-colum{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+
+  .footer_socials-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .image-social--hover{
+    transition: all 300ms ;
+    &:hover{
+      filter: opacity(.4) drop-shadow(0px 0px 0px hsl(171, 100%, 64%)) contrast(200%);
+    }
+  }
+
+
+
+
+  .footer-cc__item-link{
+    color: hsl(201, 9%, 31%);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 300ms ;
+    &:hover{
+      color: hsl(171, 66%, 44%);
+    }
+    
+  }
+
+}
+
+
+
+
+//  for mobile
+
+
+@media (min-width:100px) and (max-width:768px){
+
+  .footer{
+    padding:1rem ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    gap: 4rem;
+    
+    
+    
+    
+  }
+  .footer__brand{
+    height: 45px;
+    margin-bottom: 1rem;
+    
+  }
+
+  .footer__cont-inf{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    
+    
+    
+  }
+
+  .footer__cont-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+  }
+
+  .footer_socials-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .image-social--hover{
+    transition: all 300ms ;
+    &:hover{
+      filter: opacity(.4) drop-shadow(0px 0px 0px hsl(171, 100%, 64%)) contrast(200%);
+    }
+  }
+
+
+
+
+  .footer-cc__item-link{
+    color: hsl(201, 9%, 31%);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 300ms ;
+    &:hover{
+      color: hsl(171, 66%, 44%);
+    }
+    
+  }
+
+}
